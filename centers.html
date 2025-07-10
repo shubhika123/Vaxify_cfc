@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Centers Near Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="centers.html"><i class="fas fa-map-marker-alt"></i> Vaccination Centers</a>
+        <a href="contact.html"><i class="fas fa-phone"></i> Contact Us</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Vaccination Centers Near Me</h1>
+        <p>Find the nearest vaccination centers.</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Locate Vaccination Centers</h2>
+            <div id="map"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d55972.111818564226!2d77.1061108720177!3d28.741743173691813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svaccination%20centres%20near%20me!5e0!3m2!1sen!2sin!4v1737650380496!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Vaccination Reminder. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
